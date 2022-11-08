@@ -1,0 +1,25 @@
+%notifikation {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin: 0;
+    max-width: 400px;
+    background-color: grey;
+    color: wheat;
+ 
+}
+
+
+.notifikation--succeses {
+    @extend %list;
+    background-color: green;
+  
+}
+
+.notifikation--warning {
+    background-color: yellow;
+}
+
+.notifikation--error {
+    background-color: red;
+}

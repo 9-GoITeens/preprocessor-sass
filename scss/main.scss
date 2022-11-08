@@ -1,0 +1,18 @@
+// @import "./vars";
+
+// @import "./components/pages-header";
+
+// @import "./components/notifikation";
+
+@mixin bordered($color) {
+    border-top: 1px solid $color;
+    // width: $width;
+}
+
+p{
+    @include bordered(green);
+    // @include width(200px);
+
+}
+
+
